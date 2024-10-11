@@ -70,7 +70,7 @@ namespace MonoGameLibrary.Util
 
             //Add IInputHandler as Game Service the constructor of this class added the class as a service
             //game.Services.AddService(typeof(IInputHandler), this);
-            game.Services.AddService<IInputHandler>(this); //New syntax
+            //game.Services.AddService<IInputHandler>(this); //New syntax
             
             //initialize our local member fields
             keyboard = new KeyboardHandler();

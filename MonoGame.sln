@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneButtonGame-ClickerGame", "OneButtonGame-ClickerGame\OneButtonGame-ClickerGame.csproj", "{90603A64-90E5-485A-A257-052FC517BF9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGameLibrary", "MonoGameLibrary\MonoGameLibrary.csproj", "{5730A429-BCD0-4059-9477-1301FA3D569E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGameLibrary", "MonoGameLibrary\MonoGameLibrary.csproj", "{303501B6-8415-4E1B-A336-BE11E4FE0ADA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		{90603A64-90E5-485A-A257-052FC517BF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90603A64-90E5-485A-A257-052FC517BF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90603A64-90E5-485A-A257-052FC517BF9E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5730A429-BCD0-4059-9477-1301FA3D569E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5730A429-BCD0-4059-9477-1301FA3D569E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5730A429-BCD0-4059-9477-1301FA3D569E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5730A429-BCD0-4059-9477-1301FA3D569E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{303501B6-8415-4E1B-A336-BE11E4FE0ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{303501B6-8415-4E1B-A336-BE11E4FE0ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{303501B6-8415-4E1B-A336-BE11E4FE0ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{303501B6-8415-4E1B-A336-BE11E4FE0ADA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,14 @@
+C:\SRC\MonoGame\MonoGameOneButtonGame\MonoGameLibrary\bin\Debug\net8.0-windows\Content\Arial.xnb
+C:\SRC\MonoGame\MonoGameOneButtonGame\MonoGameLibrary\bin\Debug\net8.0-windows\Content\SpriteMarker.xnb
+C:\SRC\MonoGame\MonoGameOneButtonGame\MonoGameLibrary\bin\Debug\net8.0-windows\MonoGameLibrary.deps.json
+C:\SRC\MonoGame\MonoGameOneButtonGame\MonoGameLibrary\bin\Debug\net8.0-windows\MonoGameLibrary.dll
+C:\SRC\MonoGame\MonoGameOneButtonGame\MonoGameLibrary\bin\Debug\net8.0-windows\MonoGameLibrary.pdb
+C:\SRC\MonoGame\MonoGameOneButtonGame\MonoGameLibrary\obj\Debug\net8.0-windows\MonoGameLibrary.csproj.AssemblyReference.cache
+C:\SRC\MonoGame\MonoGameOneButtonGame\MonoGameLibrary\obj\Debug\net8.0-windows\MonoGameLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\SRC\MonoGame\MonoGameOneButtonGame\MonoGameLibrary\obj\Debug\net8.0-windows\MonoGameLibrary.AssemblyInfoInputs.cache
+C:\SRC\MonoGame\MonoGameOneButtonGame\MonoGameLibrary\obj\Debug\net8.0-windows\MonoGameLibrary.AssemblyInfo.cs
+C:\SRC\MonoGame\MonoGameOneButtonGame\MonoGameLibrary\obj\Debug\net8.0-windows\MonoGameLibrary.csproj.CoreCompileInputs.cache
+C:\SRC\MonoGame\MonoGameOneButtonGame\MonoGameLibrary\obj\Debug\net8.0-windows\MonoGameLibrary.dll
+C:\SRC\MonoGame\MonoGameOneButtonGame\MonoGameLibrary\obj\Debug\net8.0-windows\refint\MonoGameLibrary.dll
+C:\SRC\MonoGame\MonoGameOneButtonGame\MonoGameLibrary\obj\Debug\net8.0-windows\MonoGameLibrary.pdb
+C:\SRC\MonoGame\MonoGameOneButtonGame\MonoGameLibrary\obj\Debug\net8.0-windows\ref\MonoGameLibrary.dll

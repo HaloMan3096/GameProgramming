@@ -1,28 +1,35 @@
-<Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-    </PropertyGroup>
-    <ItemGroup>
-        <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.2.1105">
-            <PrivateAssets>All</PrivateAssets>
-        </PackageReference>
-    </ItemGroup>
-    <ItemGroup>
-      <Compile Include="obj\Debug\net8.0-windows\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
-      <Compile Include="obj\Debug\net8.0-windows\MonoGameLibrary.AssemblyInfo.cs" />
-      <Compile Include="obj\Release\net8.0-windows\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
-      <Compile Include="obj\Release\net8.0-windows\MonoGameLibrary.AssemblyInfo.cs" />
-    </ItemGroup>
-    <ItemGroup>
-      <Content Include="obj\Debug\net8.0-windows\MonoGameLibrary.AssemblyInfoInputs.cache" />
-      <Content Include="obj\Debug\net8.0-windows\MonoGameLibrary.GeneratedMSBuildEditorConfig.editorconfig" />
-      <Content Include="obj\Release\net8.0-windows\MonoGameLibrary.AssemblyInfoInputs.cache" />
-      <Content Include="obj\Release\net8.0-windows\MonoGameLibrary.GeneratedMSBuildEditorConfig.editorconfig" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="obj\Debug\net8.0-windows\refint\" />
-      <Folder Include="obj\Debug\net8.0-windows\ref\" />
-      <Folder Include="obj\Release\net8.0-windows\refint\" />
-      <Folder Include="obj\Release\net8.0-windows\ref\" />
-    </ItemGroup>
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Sprite2\**" />
+    <EmbeddedResource Remove="Sprite2\**" />
+    <None Remove="Sprite2\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <TrimmerRootAssembly Include="Microsoft.Xna.Framework.Content.ContentTypeReader" Visible="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.WindowsDX" Version="3.8.2.1105" />
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.2.1105" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\Assets\obj\PSM\TempPE\" />
+    <Folder Include="Content\Assets\obj\Windows\TempPE\" />
+    <Folder Include="GameComponents\ShotManager\" />
+    <Folder Include="GameComponents\Spawner\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
 </Project>

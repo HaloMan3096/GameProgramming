@@ -28,7 +28,7 @@ namespace MonoGameLibrary.Util
         public int CurrentScore { get; set; }
         public int HighScore { get; set; }
         public Vector2 ScoreLoc { get; set; } 
-        SpriteFont font;
+        public SpriteFont font;
         SpriteBatch sb;
         
         public ScoreService(Game game)
