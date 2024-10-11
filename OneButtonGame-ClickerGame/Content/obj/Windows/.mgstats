@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/logan/RiderProjects/MonoGame/OneButtonGame-ClickerGame/Content/BlueSquare.png","C:/Users/logan/RiderProjects/MonoGame/OneButtonGame-ClickerGame/Content/bin/Windows/BlueSquare.xnb","TextureProcessor","Texture2DContent",496,202585,0.0983899
+"C:/Users/logan/RiderProjects/MonoGame/OneButtonGame-ClickerGame/Content/RedSquare.png","C:/Users/logan/RiderProjects/MonoGame/OneButtonGame-ClickerGame/Content/bin/Windows/RedSquare.xnb","TextureProcessor","Texture2DContent",144,202585,0.0098965

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.2.1105">
+            <PrivateAssets>All</PrivateAssets>
+        </PackageReference>
+    </ItemGroup>
+    <ItemGroup>
+      <Compile Include="obj\Debug\net8.0-windows\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+      <Compile Include="obj\Debug\net8.0-windows\MonoGameLibrary.AssemblyInfo.cs" />
+      <Compile Include="obj\Release\net8.0-windows\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+      <Compile Include="obj\Release\net8.0-windows\MonoGameLibrary.AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="obj\Debug\net8.0-windows\MonoGameLibrary.AssemblyInfoInputs.cache" />
+      <Content Include="obj\Debug\net8.0-windows\MonoGameLibrary.GeneratedMSBuildEditorConfig.editorconfig" />
+      <Content Include="obj\Release\net8.0-windows\MonoGameLibrary.AssemblyInfoInputs.cache" />
+      <Content Include="obj\Release\net8.0-windows\MonoGameLibrary.GeneratedMSBuildEditorConfig.editorconfig" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="obj\Debug\net8.0-windows\refint\" />
+      <Folder Include="obj\Debug\net8.0-windows\ref\" />
+      <Folder Include="obj\Release\net8.0-windows\refint\" />
+      <Folder Include="obj\Release\net8.0-windows\ref\" />
+    </ItemGroup>
+</Project>
