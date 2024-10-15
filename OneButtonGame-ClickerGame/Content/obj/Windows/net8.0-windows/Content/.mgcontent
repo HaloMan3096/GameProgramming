@@ -4,8 +4,8 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/logan/RiderProjects/MonoGame/MonoGameLibrary/Content/Arial.spritefont</File>
-    <File>C:/Users/logan/RiderProjects/MonoGame/MonoGameLibrary/Content/SpriteMarker.png</File>
+    <File>C:/Users/logan/RiderProjects/MonoGame/OneButtonGame-ClickerGame/Content/BlueSquare.png</File>
+    <File>C:/Users/logan/RiderProjects/MonoGame/OneButtonGame-ClickerGame/Content/RedSquare.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

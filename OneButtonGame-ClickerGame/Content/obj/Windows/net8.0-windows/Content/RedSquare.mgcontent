@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/logan/RiderProjects/MonoGame/MonoGameLibrary/Content/SpriteMarker.png</SourceFile>
-  <SourceTime>2024-10-11T14:26:53.8878406-04:00</SourceTime>
-  <DestFile>C:/Users/logan/RiderProjects/MonoGame/MonoGameLibrary/Content/bin/Windows/Content/SpriteMarker.xnb</DestFile>
-  <DestTime>2024-10-11T14:55:04.0210208-04:00</DestTime>
+  <SourceFile>C:/Users/logan/RiderProjects/MonoGame/OneButtonGame-ClickerGame/Content/RedSquare.png</SourceFile>
+  <SourceTime>2024-10-10T23:46:32.7777758-04:00</SourceTime>
+  <DestFile>C:/Users/logan/RiderProjects/MonoGame/OneButtonGame-ClickerGame/Content/bin/Windows/Content/RedSquare.xnb</DestFile>
+  <DestTime>2024-10-11T14:55:11.1404068-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2024-08-16T13:05:56-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

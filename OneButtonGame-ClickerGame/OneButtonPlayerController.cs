@@ -2,33 +2,31 @@
 using Microsoft.Xna.Framework.Input;
 using MonoGameLibrary.Util;
 
-namespace OneButtonPacman
+namespace MonoGame
 {
     public class OneButtonPlayerController : GameComponent
     {
-        InputHandler inputHander;
+        private readonly InputHandler inputHandler;
+        private readonly Keys controllerKey;
 
-        Keys controllerKey;
-
-        public bool IsKeyPressed { get; set; }
+        public bool IsKeyPressed { get; private set; }
 
         public OneButtonPlayerController(Game game) : base(game)
         {
-            inputHander = (InputHandler)game.Services.GetService<IInputHandler>();
-            if(inputHander == null)
+            inputHandler = (InputHandler)game.Services.GetService<IInputHandler>();
+            if(inputHandler == null)
             {
-                inputHander = new InputHandler(game);
-                game.Components.Add(inputHander);
+                inputHandler = new InputHandler(game);
+                game.Components.Add(inputHandler);
             }
 
-            controllerKey = Keys.Space;
-            
+            controllerKey = Keys.E;
         }
 
 
         public override void Update(GameTime gameTime)
         {
-            IsKeyPressed = inputHander.KeyboardState.IsKeyDown(controllerKey);
+            IsKeyPressed = inputHandler.KeyboardState.IsKeyDown(controllerKey);
             base.Update(gameTime);
         }
 
