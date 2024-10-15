@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneButtonGame-ClickerGame",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGameLibrary", "MonoGameLibrary\MonoGameLibrary.csproj", "{303501B6-8415-4E1B-A336-BE11E4FE0ADA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostManager", "GhostManager\GhostManager.csproj", "{04A13476-655E-452A-83E8-88BB291B04F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{303501B6-8415-4E1B-A336-BE11E4FE0ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{303501B6-8415-4E1B-A336-BE11E4FE0ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{303501B6-8415-4E1B-A336-BE11E4FE0ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04A13476-655E-452A-83E8-88BB291B04F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A13476-655E-452A-83E8-88BB291B04F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A13476-655E-452A-83E8-88BB291B04F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A13476-655E-452A-83E8-88BB291B04F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
