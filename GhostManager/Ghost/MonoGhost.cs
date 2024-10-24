@@ -36,7 +36,7 @@ public class MonoGhost : MonoGameLibrary.Sprite.DrawableSprite
     {
         ghostTexture = Game.Content.Load<Texture2D>("PurpleGhost");
         ghostHitTexture = Game.Content.Load<Texture2D>("GhostHit");
-        // ReSharper disable PossibleLossOfFraction
+        this.spriteTexture = ghostTexture;
         this.Origin = new Vector2(this.SpriteTexture.Width / 2, this.SpriteTexture.Height / 2);
         this.Location = _spawn;
         this.Speed = 200;

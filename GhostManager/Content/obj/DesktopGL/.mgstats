@@ -1,0 +1,6 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/logan/RiderProjects/MonoGame/GhostManager/Content/20px_1trans.png","C:/Users/logan/RiderProjects/MonoGame/GhostManager/Content/bin/DesktopGL/20px_1trans.xnb","TextureProcessor","Texture2DContent",2612,6485,0.083823
+"C:/Users/logan/RiderProjects/MonoGame/GhostManager/Content/GhostHit.png","C:/Users/logan/RiderProjects/MonoGame/GhostManager/Content/bin/DesktopGL/GhostHit.xnb","TextureProcessor","Texture2DContent",1158,11749,0.0024921
+"C:/Users/logan/RiderProjects/MonoGame/GhostManager/Content/pacmanSingle.png","C:/Users/logan/RiderProjects/MonoGame/GhostManager/Content/bin/DesktopGL/pacmanSingle.xnb","TextureProcessor","Texture2DContent",2204,11533,0.0030837
+"C:/Users/logan/RiderProjects/MonoGame/GhostManager/Content/PurpleGhost.png","C:/Users/logan/RiderProjects/MonoGame/GhostManager/Content/bin/DesktopGL/PurpleGhost.xnb","TextureProcessor","Texture2DContent",1368,11749,0.00181
+"C:/Users/logan/RiderProjects/MonoGame/GhostManager/Content/RedGhost.png","C:/Users/logan/RiderProjects/MonoGame/GhostManager/Content/bin/DesktopGL/RedGhost.xnb","TextureProcessor","Texture2DContent",1193,11533,0.0057762

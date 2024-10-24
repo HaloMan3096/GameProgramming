@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using GhostManager.PacMan;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -14,12 +15,16 @@ public class Game1 : Game
         _graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
         IsMouseVisible = true;
+        
+        MonoGamePac pac = new MonoGamePac(this);
+        this.Components.Add(pac);
+
+        Ghost.GhostManager gm = new Ghost.GhostManager(this, pac);
+        this.Components.Add(gm);
     }
 
     protected override void Initialize()
     {
-        // TODO: Add your initialization logic here
-
         base.Initialize();
     }
 
@@ -44,9 +49,7 @@ public class Game1 : Game
     protected override void Draw(GameTime gameTime)
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
-
-        // TODO: Add your drawing code here
-
+        
         base.Draw(gameTime);
     }
 }

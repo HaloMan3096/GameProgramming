@@ -32,14 +32,14 @@ public class MonoGamePac : MonoGameLibrary.Sprite.DrawableSprite
 
     public override void Initialize()
     {
+        base.Initialize();
         pacTexture = Game.Content.Load<Texture2D>("pacManSingle");
-        deadPacTexture = Game.Content.Load<Texture2D>("pacmanDie");
-        // ReSharper disable PossibleLossOfFraction
+        deadPacTexture = Game.Content.Load<Texture2D>("20px_1trans");
+        this.spriteTexture = pacTexture;
         this.Origin = new Vector2(this.SpriteTexture.Width / 2, this.SpriteTexture.Height / 2);
         this.Location = new Microsoft.Xna.Framework.Vector2(100, 100);
         this.Speed = 200;
         this.pacState = PacState.Chomping;
-        base.Initialize();
     }
 
     public override void Update(GameTime gameTime)

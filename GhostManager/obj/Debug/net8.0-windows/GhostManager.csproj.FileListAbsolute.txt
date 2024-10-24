@@ -29,3 +29,8 @@ C:\Users\logan\RiderProjects\MonoGame\GhostManager\obj\Debug\net8.0-windows\refi
 C:\Users\logan\RiderProjects\MonoGame\GhostManager\obj\Debug\net8.0-windows\GhostManager.pdb
 C:\Users\logan\RiderProjects\MonoGame\GhostManager\obj\Debug\net8.0-windows\GhostManager.genruntimeconfig.cache
 C:\Users\logan\RiderProjects\MonoGame\GhostManager\obj\Debug\net8.0-windows\ref\GhostManager.dll
+C:\Users\logan\RiderProjects\MonoGame\GhostManager\bin\Debug\net8.0-windows\Content\20px_1trans.xnb
+C:\Users\logan\RiderProjects\MonoGame\GhostManager\bin\Debug\net8.0-windows\Content\GhostHit.xnb
+C:\Users\logan\RiderProjects\MonoGame\GhostManager\bin\Debug\net8.0-windows\Content\pacmanSingle.xnb
+C:\Users\logan\RiderProjects\MonoGame\GhostManager\bin\Debug\net8.0-windows\Content\PurpleGhost.xnb
+C:\Users\logan\RiderProjects\MonoGame\GhostManager\bin\Debug\net8.0-windows\Content\RedGhost.xnb

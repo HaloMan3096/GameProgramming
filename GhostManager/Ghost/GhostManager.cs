@@ -8,14 +8,16 @@ public class GhostManager : GameComponent
     private const int numGhosts = 4;
     MonoGhost[] ghosts;
 
-    private MonoGamePac player;
+    private readonly MonoGamePac player;
     
-    public GhostManager(Game game) : base(game)
+    public GhostManager(Game game, MonoGamePac pac) : base(game)
     {
+        player = pac;
         ghosts = new MonoGhost[numGhosts];
         for (int i = 0; i < numGhosts; i++)
         {
             ghosts[i] = new MonoGhost(game, new Vector2(0, 0));
+            ghosts[i].Initialize();
         }
     }
 

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GhostManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad1015fdc0140dbacc5052fc6a5bebc044180f37")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+193cd8a98b96b442161b4a7a44deab96298317d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("GhostManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GhostManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
